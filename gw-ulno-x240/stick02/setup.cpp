@@ -1,4 +1,4 @@
-const char* id="x240-01";
+const char* id="x240-02";
 
 out(led, ONBOARDLED).inverted().off();
 button(home, BUTTON_HOME, "pressed", "released").inverted().debounce(10);
